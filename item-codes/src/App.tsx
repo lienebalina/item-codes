@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import data from "../sample.json";
 import { Product, products } from "./components/products";
 import { VariantOption, variants } from "./components/variant";
 import { Button } from "./components/Button";
@@ -30,7 +28,7 @@ export const App = () => {
   return (
     <div className="form">
       <div className="item-code">
-        <p>
+        <p role="property">
           {selectedProduct ? "" : "0000"}
           {selectedProduct?.code}
           {Object.keys(selectedVariant).map((variationCode) => {
