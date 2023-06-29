@@ -1,6 +1,8 @@
 # Item Codes
 The code provides an implementation of selecting an item from variations and further providing a combined item code using the previously selected user's choices. Code is written in React and CSS and uses yarn workspace.
 
+![](https://github.com/lienebalina/item-codes/blob/main/item-codes/public/ezgif.com-video-to-gif.gif)
+
 ## Installation and running
 To use and run this code, follow these instructions:
 1. Move into the project path and install all the dependencies:
